@@ -1,0 +1,13 @@
+Video : https://morioh.com/a/acc742b98044/setting-up-neovim-for-python-development
+
+install Plugin : sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
+move "nvim" Folder to ".config"
+
+cd to nvim and 
+nvim inti.vim
+
+:PlugInstall
+
+Done!
